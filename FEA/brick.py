@@ -1,7 +1,6 @@
 import numpy as np
 
 # Function Definitions
-
 def constitutiveMat(E, v):
     return (E/(1+v))*np.array([[(1-v)/(1-2*v), v/(1-2*v),v/(1-2*v),0,0,0],
                                   [v/(1-2*v),(1-v)/(1-2*v),v/(1-2*v),0,0,0],
