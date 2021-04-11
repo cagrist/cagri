@@ -1,6 +1,6 @@
 # Structural Engineering Tools
 
-This is a collection of structural engineering tools I developed for various projects and my graduate studies. Most of the stuff is written in Python 3.
+This is a collection of structural engineering tools I developed for various projects and for my graduate studies. Most of the stuff is written in Python 3.
 
 # fea/isop.py
 
