@@ -83,8 +83,6 @@ E = 200000 # Modulus of elasticity
 v = 0.30 # Poisson's ratio
 stressState = 'PlaneStress'# Valid inputs: 'PlaneStrain','PlaneStress','Axisym'
 
-
-
 K = np.zeros([8,8])
 for integrationPoint in range(9):
     ksi = points[integrationPoint,0]
